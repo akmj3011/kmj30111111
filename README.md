@@ -1,47 +1,38 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>네이버</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>삼성전자 회사 사진</title>
+    <style>
+        /* 스타일링을 여기에 추가하세요 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .photo {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-<header>
-  <h1>네이버</h1>
-  <nav>
-    <ul>
-      <li><a href="#">뉴스</a></li>
-      <li><a href="#">스포츠</a></li>
-      <li><a href="#">연예</a></li>
-      <li><a href="#">쇼핑</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <section>
-    <h2>뉴스</h2>
-    <article>
-      <h3>속보</h3>
-      <p>내용 내용 내용...</p>
-    </article>
-    <!-- 다른 뉴스 기사들도 추가 -->
-  </section>
-
-  <section>
-    <h2>스포츠</h2>
-    <article>
-      <h3>축구</h3>
-      <p>내용 내용 내용...</p>
-    </article>
-    <!-- 다른 스포츠 기사들도 추가 -->
-  </section>
-
-  <!-- 연예, 쇼핑 등의 섹션도 추가 -->
-</main>
-
-<footer>
-  <p>&copy; 2024 NAVER Corp.</p>
-</footer>
+    <div class="container">
+        <h1>삼성전자 회사 사진</h1>
+        <div class="photo">
+            <img src="이미지_경로_1.jpg" alt="이미지 설명 1">
+        </div>
+        <div class="photo">
+            <img src="이미지_경로_2.jpg" alt="이미지 설명 2">
+        </div>
+        <!-- 필요한 만큼 사진을 추가하세요 -->
+    </div>
 </body>
 </html>
